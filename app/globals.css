@@ -15,13 +15,28 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+/* 
+.headline::before {
+  content: "";
+  position: absolute;
+  left: 7%;
+  bottom: 0px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238, 111, 87, 0.5);
+  z-index: -1;
+} */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.headline {
+  background-image: linear-gradient(
+    179deg,
+    rgb(254, 97, 158) 0%,
+    rgb(254, 97, 158) 50%,
+    transparent 54%,
+    transparent 100%
+  );
+  background-size: 100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
 }
