@@ -17,13 +17,19 @@ export default function Home() {
               width={128}
               height={128}
               alt="Profile Image"
-              className="rounded-full w-32 h-32 object-cover object-top mx-auto"
+              className="rounded-full w-28 h-28 sm:w-32 sm:h-32 object-cover object-top mx-auto"
             />
-            <h1 className="text-4xl font-semibold text-white mt-3">
+            <h1 className="text-2xl sm:text-4xl font-semibold text-white mt-3">
               Vinay Kumar
             </h1>
-            <p className="text-white mt-2 text-sm">
+            <p className="text-white mt-2 text-xs sm:text-sm">
               Software Engineer | Web Enthusiast | Minimalist | Cook
+            </p>
+            <p className="text-white mt-2 text-sm">
+              Status:{" "}
+              <span className="text-green-500">
+                Learning and building stuff
+              </span>
             </p>
             <div className="flex gap-4 justify-center items-center mt-4">
               <a href="https://github.com/vinaykanna" target="_blank">
