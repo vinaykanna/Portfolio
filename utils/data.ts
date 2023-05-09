@@ -79,21 +79,24 @@ export const guiChallenges = [
     name: "Auto Scroll To Bottom",
     description:
       "This is a GUI challenge where I have to create a chat application where the chat should auto scroll to bottom when a new message is added.",
-    link: "https://gui-challenges.technologyexplorer.dev",
-    source: "https://github.com/vinaykanna/gui-challenges",
+    link: "https://gui-challenges.technologyexplorer.dev/auto-scroll-to-bottom",
+    source:
+      "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
   },
   {
     name: "Infinite Scroll",
     description:
       "This is a GUI challenge where I have to create a page where the content should load when the user scrolls to the bottom of the page.",
     link: "https://gui-challenges.technologyexplorer.dev",
-    source: "https://github.com/vinaykanna/gui-challenges",
+    source:
+      "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
   },
   {
     name: "Multilevel Menu",
     description:
       "This is a GUI challenge where I have to create a multilevel menu where the menu should open when the user clicks on the menu item.",
     link: "https://gui-challenges.technologyexplorer.dev",
-    source: "https://github.com/vinaykanna/gui-challenges",
+    source:
+      "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
   },
 ];
