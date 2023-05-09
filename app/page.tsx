@@ -60,7 +60,7 @@ export default function Home() {
           <h1 className="text-3xl font-semibold mt-3">
             <span className="headline">Tech Stack</span>
           </h1>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-10 mt-10">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-10 mt-10">
             {technstack.map((tech, index) => (
               <div
                 className="bg-[#00aa930d] p-5 flex items-center justify-center h-[100px] shadow"

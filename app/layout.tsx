@@ -6,6 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Vinay Kumar",
   description: "My personal portfolio",
+  icons: {
+    icon: "/favicon/favicon.ico",
+    shortcut: "/favicon/favicon.ico",
+    apple: "/favicon/apple-touch-icon.png",
+    android: "/favicon/android-chrome-192x192.png",
+    androidLarge: "/favicon/android-chrome-512x512.png",
+  },
 };
 
 export default function RootLayout({
