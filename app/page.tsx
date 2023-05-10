@@ -53,6 +53,18 @@ export default function Home() {
                   alt="LinkedIn"
                 />
               </a>
+              <a
+                href="https://cloud-storage-project.s3.ap-south-1.amazonaws.com/resume_dropped.pdf"
+                target="_blank"
+              >
+                <Image
+                  width={30}
+                  className="rounded-full"
+                  height={30}
+                  src="/cv2.png"
+                  alt="CV"
+                />
+              </a>
             </div>
           </section>
         </article>
