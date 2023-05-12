@@ -54,7 +54,7 @@ export default function Home() {
                 />
               </a>
               <a
-                href="https://cloud-storage-project.s3.ap-south-1.amazonaws.com/resume_dropped.pdf"
+                href="https://cloud-storage-project.s3.ap-south-1.amazonaws.com/resume.pdf"
                 target="_blank"
               >
                 <Image
