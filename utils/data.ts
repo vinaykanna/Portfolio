@@ -72,6 +72,14 @@ export const projects = [
     link: "https://form-builder.technologyexplorer.dev",
     source: "https://github.com/vinaykanna/form-builder",
   },
+  // {
+  //   name: "Video Player",
+  //   image: "/formbuilder.png",
+  //   description:
+  //     "It is a form builder application where you can create forms and share them with others. It is built using ReactJS, NodeJS, ExpressJS, MongoDB, and AWS S3.",
+  //   link: "https://form-builder.technologyexplorer.dev",
+  //   source: "https://github.com/vinaykanna/form-builder",
+  // },
 ];
 
 export const guiChallenges = [
@@ -87,7 +95,7 @@ export const guiChallenges = [
     name: "Infinite Scroll",
     description:
       "This is a GUI challenge where I have to create a page where the content should load when the user scrolls to the bottom of the page.",
-    link: "https://gui-challenges.technologyexplorer.dev",
+    link: "https://gui-challenges.technologyexplorer.dev/infinite-scroll",
     source:
       "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
   },
