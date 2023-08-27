@@ -107,7 +107,7 @@ export default function Home() {
                 <h3 className="text-lg font-medium mt-4">{form.name}</h3>
                 <p className="text-sm mt-2">{form.description}</p>
                 <div className="mt-5">
-                  <a href={form.link} target="_blank">
+{/*                   <a href={form.link} target="_blank">
                     <button
                       type="button"
                       className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3"
@@ -121,11 +121,11 @@ export default function Home() {
                       />
                       View Online
                     </button>
-                  </a>
+                  </a> */}
                   <a href={form.source} target="_blank">
                     <button
                       type="button"
-                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg  py-2.5 text-center inline-flex items-center text-xs px-3 ml-2 mt-2 sm:mt-0"
+                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg  py-2.5 text-center inline-flex items-center text-xs px-3 mt-2 sm:mt-0"
                     >
                       <Image
                         width={17}
@@ -155,7 +155,7 @@ export default function Home() {
                 <h3 className="text-lg font-medium mt-4">{chall.name}</h3>
                 <p className="text-sm mt-2">{chall.description}</p>
                 <div className="mt-5">
-                  <a href={chall.link} target="_blank">
+{/*                   <a href={chall.link} target="_blank">
                     <button
                       type="button"
                       className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3"
@@ -169,11 +169,11 @@ export default function Home() {
                       />
                       View Online
                     </button>
-                  </a>
+                  </a> */}
                   <a href={chall.source} target="_blank">
                     <button
                       type="button"
-                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3 ml-1 mt-2 sm:mt-0"
+                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3 mt-2 sm:mt-0"
                     >
                       <Image
                         width={17}
