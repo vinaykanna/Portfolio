@@ -1,5 +1,6 @@
 import { guiChallenges, projects, technstack } from "@/utils/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -53,8 +54,8 @@ export default function Home() {
                   alt="LinkedIn"
                 />
               </a>
-              <a
-                href="https://cloud-storage-project.s3.ap-south-1.amazonaws.com/resume.pdf"
+              <Link
+                href="/resume"
                 target="_blank"
               >
                 <Image
@@ -64,7 +65,7 @@ export default function Home() {
                   src="/cv2.png"
                   alt="CV"
                 />
-              </a>
+              </Link>
             </div>
           </section>
         </article>
