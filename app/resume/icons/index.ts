@@ -4,6 +4,7 @@ import Location from "./location";
 import Github from "./github";
 import Linkedin from "./linkedin";
 import Calendar from './calendar'
+import Diamond from "./diamond";
 
 export type IconProps = {
     color?: string;
@@ -16,5 +17,6 @@ export {
     Location,
     Github,
     Linkedin,
-    Calendar
+    Calendar,
+    Diamond
 }
