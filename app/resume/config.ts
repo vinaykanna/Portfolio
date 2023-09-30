@@ -1,15 +1,15 @@
 import { Github, Linkedin, Location, Mail, Phone } from "./icons";
 
-const fullName = "VINAY KUMAR NAGILLA"
+const fullName = "MADHUKAR MOGUTHALA"
 
-const designation = "Senior Front End Engineer"
+const designation = "System Engineer"
 
-const skills = ["HTML", 'CSS', "JavaScript", 'ReactJS', 'NextJS', 'GIT', 'NodeJS (Beginner)', 'MangoDB (Beginner)', 'MySQL(Beginner)', 'AWS (Beginner)'];
+const skills = ["HTML", 'CSS', 'MySQL(Beginner)', 'ClarityPPM', 'NSQL', 'XML', 'GelScripting'];
 
 const education = {
-    title: "Bachelor of Science (Computers)",
-    college: "Acharya Nagarjuna University",
-    period: "2014 - 2018"
+    title: "Bachelor of Technology (Mechanical)",
+    college: "Jawaharlal Nehru Technological University Hyderabad",
+    period: "2018 - 2021"
 }
 
 const achievements = [
@@ -21,7 +21,7 @@ const achievements = [
 
 const passions = [
     "Continuous learning and improvement in the tech",
-    "Open-source development"
+    "Optimizing processes and delivering impactful solutions"
 ]
 
 const languages = [
@@ -44,65 +44,28 @@ const languages = [
 
 const experience = [
     {
-        company: "DAZN",
+        company: "Infosys",
         roles: [
             {
-                title: "Senior Software Enigineer",
-                period: "06/2023 - Present",
+                title: "System Enigineer",
+                period: "11/2021 - Present",
                 location: "Hyderabad",
                 work: [
-                    "Integrate internally-developed new system, as well as marketplace 3rd party modules into existing system such as OneDrive integration using Microsoft  Graph and GoogleDrive integration using google APIs.",
-                    "Introduced and implemented a new backend framework (NestJS) that improved the development process",
-                    "Managed a team of 2 remote full-time employees"
+                    "Implemented custom solutions using Clarity PPM, NSQL, XML, and Gel scripting to streamline project management processes.",
+                    "Developed and maintained NSQL queries and XML templates to extract and visualize critical project data for stakeholders.",
+                    "Automated repetitive tasks and improved efficiency by creating Gel scripts to enhance system functionality.",
+                    " Customized Clarity PPM workflows and configurations to align with specific project requirements and business needs.",
+                    "Enhanced reporting capabilities by designing and implementing custom reports and dashboards using Clarity PPM data.",
+                    "Played a key role in system upgrades and migrations, ensuring a smooth transition to newer versions of Clarity PPM."
                 ]
             }
         ]
     },
-    {
-        company: "Scale Dino",
-        roles: [
-            {
-                title: "Full Stack Developer (Freelance)",
-                period: "03/2023 - 05/2023",
-                location: "Hyderabad",
-                work: [
-                    "Integrate internally-developed new system, as well as marketplace 3rd party modules into existing system such as OneDrive integration using Microsoft  Graph and GoogleDrive integration using google APIs.",
-                    "Introduced and implemented a new backend framework (NestJS) that improved the development process",
-                    "Managed a team of 2 remote full-time employees"
-                ]
-            }
-        ]
-    },
-    {
-        company: "Janaspandana Software Solutions",
-        roles: [
-            {
-                title: "Senior Frontend Developer",
-                period: "03/2022 - 02/2023",
-                location: "Hyderabad",
-                work: [
-                    "Involved in the development of University Management System.",
-                    "Improved website accessibility by implementing best practices for color contrast, keyboard navigation, and screen reader compatibility for Learning Management System.",
-                    "Introduced and implemented a new frontend framework (NextJS) that improved the development process and reduced time-to-market for new features."
-                ]
-            },
-            {
-                title: "Frontend Developer",
-                period: "09/2019 - 02/2022",
-                location: "Hyderabad",
-                work: [
-                    "Successfully developed and launched several websites which are responsive across all devices and truly accessible. ",
-                    "Optimized website performance by implementing best practices for image compression, caching, and minification, resulting in increased page speed",
-                    "Developed and designed the complete frontend of a business management system, working independently from conception to delivery. Leveraged expertise in HTML, CSS, and JavaScript, as well as experience with frontend frameworks such as React, to create a user-friendly interface with responsive design "
-                ]
-            }
-        ]
-    }
 ]
 
 const headerItems = [
     {
-        title: "9505335109",
+        title: "8485883620",
         icon: Phone,
     },
     {
@@ -110,19 +73,15 @@ const headerItems = [
         icon: Location,
     },
     {
-        title: "vinaykanna367@gmail.com",
+        title: "madhugoud2403@gmail.com",
         icon: Mail,
     },
     {
         title: "Linkedin",
         icon: Linkedin,
-        link: "https://www.linkedin.com/in/vinay-kumar-497911144/",
+        link: "https://www.linkedin.com/in/madhukar-moguthala-981200210/",
     },
-    {
-        title: "Github",
-        icon: Github,
-        link: "https://github.com/vinaykanna",
-    },
+
 ];
 
 export {

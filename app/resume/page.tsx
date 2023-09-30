@@ -15,13 +15,12 @@ function Resume() {
         <div className="w-[60%] flex flex-col gap-6">
           <Summary />
           <Experience />
+          <Education />
         </div>
         <div className="w-[40%] flex flex-col gap-10">
           <Skills />
-          <Achievements />
           <Passions />
           <Languages />
-          <Education />
         </div>
       </div>
     </section>
