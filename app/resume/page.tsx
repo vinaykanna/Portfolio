@@ -11,9 +11,11 @@ function Resume() {
   return (
     <section className="w-[1000px] m-auto border shadow-lg wrapper">
       <Header />
-      <div className="flex p-6 gap-10">
+      <div className="px-6 pt-2">
+        <Summary />
+      </div>
+      <div className="flex p-6 pt-4 gap-10">
         <div className="w-[60%] flex flex-col gap-6">
-          <Summary />
           <Experience />
         </div>
         <div className="w-[40%] flex flex-col gap-10">
