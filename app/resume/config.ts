@@ -12,7 +12,7 @@ const skills = [
   "NextJS",
   "GIT",
   "NodeJS (Beginner)",
-  "MangoDB (Beginner)",
+  "MongoDB (Beginner)",
   "MySQL(Beginner)",
   "AWS (Beginner)",
 ];
