@@ -100,11 +100,10 @@ export const guiChallenges = [
       "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
   },
   {
-    name: "Multilevel Menu",
+    name: "Autocomplete",
     description:
-      "This is a GUI challenge where I have to create a multilevel menu where the menu should open when the user clicks on the menu item.",
-    link: "https://gui-challenges.technologyexplorer.dev",
-    source:
-      "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
+      "This is a GUI challenge where I have to create a autocomplete where the list should be able to searchable by typing into the input and matched characters in the provided list should be highlighted.",
+    link: "https://autocomplete-beta.vercel.app/",
+    source: "https://github.com/vinaykanna/Autocomplete",
   },
 ];

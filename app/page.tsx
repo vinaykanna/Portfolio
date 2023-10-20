@@ -54,10 +54,7 @@ export default function Home() {
                   alt="LinkedIn"
                 />
               </a>
-              <Link
-                href="/resume"
-                target="_blank"
-              >
+              <Link href="/resume" target="_blank">
                 <Image
                   width={30}
                   className="rounded-full"
@@ -108,21 +105,6 @@ export default function Home() {
                 <h3 className="text-lg font-medium mt-4">{form.name}</h3>
                 <p className="text-sm mt-2">{form.description}</p>
                 <div className="mt-5">
-{/*                   <a href={form.link} target="_blank">
-                    <button
-                      type="button"
-                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3"
-                    >
-                      <Image
-                        width={16}
-                        height={16}
-                        className="mr-2 -ml-1"
-                        src="/www.png"
-                        alt="World Wide Web"
-                      />
-                      View Online
-                    </button>
-                  </a> */}
                   <a href={form.source} target="_blank">
                     <button
                       type="button"
@@ -150,27 +132,14 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
             {guiChallenges.map((chall, index) => (
               <div
-                className="bg-[#00aa930d] p-5 border-2 border-solid border-[#00aa93eb] rounded-md shadow"
+                className="bg-[#00aa930d] p-5 border-2 border-solid border-[#00aa93eb] rounded-md shadow flex flex-col"
                 key={index}
               >
-                <h3 className="text-lg font-medium mt-4">{chall.name}</h3>
-                <p className="text-sm mt-2">{chall.description}</p>
+                <div className="flex-auto">
+                  <h3 className="text-lg font-medium mt-4">{chall.name}</h3>
+                  <p className="text-sm mt-2">{chall.description}</p>
+                </div>
                 <div className="mt-5">
-{/*                   <a href={chall.link} target="_blank">
-                    <button
-                      type="button"
-                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3"
-                    >
-                      <Image
-                        width={16}
-                        height={16}
-                        className="mr-2 -ml-1"
-                        src="/www.png"
-                        alt="World Wide Web"
-                      />
-                      View Online
-                    </button>
-                  </a> */}
                   <a href={chall.source} target="_blank">
                     <button
                       type="button"
@@ -184,6 +153,21 @@ export default function Home() {
                         alt="Github"
                       />
                       View Source
+                    </button>
+                  </a>
+                  <a href={chall.link} target="_blank">
+                    <button
+                      type="button"
+                      className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3 ml-2"
+                    >
+                      <Image
+                        width={16}
+                        height={16}
+                        className="mr-2 -ml-1"
+                        src="/www.png"
+                        alt="World Wide Web"
+                      />
+                      View Online
                     </button>
                   </a>
                 </div>
