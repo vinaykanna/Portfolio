@@ -106,4 +106,11 @@ export const guiChallenges = [
     link: "https://autocomplete-beta.vercel.app/",
     source: "https://github.com/vinaykanna/Autocomplete",
   },
+  {
+    name: "Resizable Columns",
+    description:
+      "This is a GUI challenge where I have to create a component called resizable editors, here columns can be resized using resizer in the middle.",
+    link: "https://gui-challenges.technologyexplorer.dev/resizeable-columns",
+    source: "https://github.com/vinaykanna/gui-challenges/tree/main/src/gui-challenges",
+  },
 ];
