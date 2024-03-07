@@ -1,8 +1,8 @@
-import { Github, Linkedin, Location, Mail, Phone } from "./icons";
+import { Github, Linkedin, Location, Mail, Phone, Web } from "./icons";
 
 const fullName = "VINAY KUMAR NAGILLA";
 
-const designation = "Senior Front End Engineer";
+const designation = "Senior Software Engineer";
 
 const skills = [
   "HTML",
@@ -117,6 +117,10 @@ const experience = [
 
 const headerItems = [
   {
+    title: "vinaykanna367@gmail.com",
+    icon: Mail,
+  },
+  {
     title: "9505335109",
     icon: Phone,
   },
@@ -125,18 +129,19 @@ const headerItems = [
     icon: Location,
   },
   {
-    title: "vinaykanna367@gmail.com",
-    icon: Mail,
+    title: "Github",
+    icon: Github,
+    link: "https://github.com/vinaykanna",
+  },
+  {
+    title: "Website",
+    icon: Web,
+    link: "https://me.technologyexplorer.dev",
   },
   {
     title: "Linkedin",
     icon: Linkedin,
     link: "https://www.linkedin.com/in/vinay-kumar-497911144/",
-  },
-  {
-    title: "Github",
-    icon: Github,
-    link: "https://github.com/vinaykanna",
   },
 ];
 

@@ -5,6 +5,8 @@ import Github from "./github";
 import Linkedin from "./linkedin";
 import Calendar from './calendar'
 import Diamond from "./diamond";
+import Web from "./web";
+
 
 export type IconProps = {
     color?: string;
@@ -18,5 +20,6 @@ export {
     Github,
     Linkedin,
     Calendar,
-    Diamond
+    Diamond,
+    Web
 }
