@@ -1,12 +1,11 @@
-import { passions } from "../config";
 import { Diamond } from "../icons";
 import SectionTitle from "./SectionTitle";
 
-function Passions() {
+function Passions({ passions }: any) {
   return (
     <section>
-      <SectionTitle title="PASSIONS" />
-      {passions.map((item, index) => (
+      <SectionTitle title="Passions" />
+      {passions.map((item: any, index: number) => (
         <div className="flex gap-2 mt-2" key={index}>
           <div>
             <Diamond color="rgb(149, 29, 196)" className="w-4 mt-1" />

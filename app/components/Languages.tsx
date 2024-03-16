@@ -1,11 +1,10 @@
-import { languages } from "../config";
 import SectionTitle from "./SectionTitle";
 
-function Languages() {
+function Languages({ languages }: any) {
   return (
     <section>
       <SectionTitle title="Languages" />
-      {languages.map((item, index) => (
+      {languages.map((item: any, index: number) => (
         <div
           className={`flex gap-2 mt-2 items-center justify-between ${
             index !== languages.length - 1

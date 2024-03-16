@@ -1,12 +1,11 @@
-import { achievements, education } from "../config";
-import { Calendar, Diamond } from "../icons";
+import { Diamond } from "../icons";
 import SectionTitle from "./SectionTitle";
 
-function Achievements() {
+function Achievements({ achievements }: any) {
   return (
     <section>
-      <SectionTitle title="ACHIEVEMENTS" />
-      {achievements.map((item, index) => (
+      <SectionTitle title="Achievements" />
+      {achievements.map((item: any, index: number) => (
         <div className="flex gap-2 mt-2" key={index}>
           <div>
             <Diamond color="rgb(149, 29, 196)" className="w-4 mt-1" />
