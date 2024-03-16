@@ -78,7 +78,7 @@ const experience = [
             title: "Sales and PnL Dashboards in SigniFi Project",
             description:
               'Signifi is a pharmaceutical project. Mainly I have worked on two main modules – Sales and PnL (Profit and Loss). In Sales, there are four easy dashboards, each looking at different sales details. Just hit "Go," and you get instant, up-to-date information from the database, giving you the latest insights into pharmaceutical sales.',
-            tech: "Java, Spring Boot, Hibernate, Git, JPA, JIRA, SonarQube.",
+            tech: "Java, Spring Boot, Hibernate, Git, JPA, SonarQube.",
             responsibilities: [
               "Developed robust REST APIs using Java and Spring Boot for the Signify project.",
               "Led the design and coding efforts to improve user experience.",
