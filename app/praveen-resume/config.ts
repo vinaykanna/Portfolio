@@ -19,6 +19,7 @@ const skills = [
   "Git",
   "Load Runner",
   "Postman",
+  "Maven",
   "Microservices",
   "JUnit",
 ];
