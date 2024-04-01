@@ -1,21 +1,17 @@
-import Achievements from "../components/Achievements";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Header from "../components/Header";
 import Languages from "../components/Languages";
-import Passions from "../components/Passions";
 import Skills from "../components/Skills";
 import Summary from "../components/Summary";
 import {
-  achievements,
   designation,
   education,
   experience,
   fullName,
   headerItems,
   languages,
-  passions,
-  skills,
+  skillsElaborated,
   summary,
 } from "./config";
 
@@ -35,8 +31,7 @@ function Resume() {
           <Experience experience={experience} />
         </div>
         <div className="w-[40%] flex flex-col gap-10">
-          <Skills skills={skills} />
-          <Languages languages={languages} />
+          <Skills.Elaborated skills={skillsElaborated} />
           <Education education={education} />
         </div>
       </div>

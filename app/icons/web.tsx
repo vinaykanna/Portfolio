@@ -8,7 +8,7 @@ function Web({ color = "white", className = "" }: IconProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="style=linear" clip-path="url(#clip0_1_1825)">
+      <g id="style=linear" clipPath="url(#clip0_1_1825)">
         <g id="web">
           <path
             id="vector"

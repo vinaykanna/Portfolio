@@ -26,6 +26,30 @@ const skills = [
   "AWS (Beginner)",
 ];
 
+const skillsElaborated = [
+  {
+    label: "Frontend",
+    items: ["HTML", "CSS", "JavaScript", "ReactJS", "NextJS"],
+  },
+  {
+    label: "Backend",
+    items: [
+      "NodeJS (Beginner)",
+      "NestJS (Beginner)",
+      "MongoDB (Beginner)",
+      "MySQL (Beginner)",
+    ],
+  },
+  {
+    label: "Sofwares and Tools",
+    items: ["GIT", "GitHub", "Jira", "VS Code", "Figma"],
+  },
+  {
+    label: "Cloud and DevOps",
+    items: ["GitHub Actions (Beginner)", "AWS (Beginner)"],
+  },
+];
+
 const education = [
   {
     title: "Bachelor of Science (Computers)",
@@ -167,4 +191,5 @@ export {
   passions,
   languages,
   experience,
+  skillsElaborated,
 };
