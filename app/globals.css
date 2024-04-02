@@ -29,9 +29,6 @@
 }
 
 @media print {
-  @page {
-    margin: 0;
-  }
   .wrapper {
     border: none;
     box-shadow: none;

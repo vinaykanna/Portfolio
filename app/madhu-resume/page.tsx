@@ -1,15 +1,19 @@
+import Summary from "../components/Summary";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Header from "../components/Header";
+import Languages from "../components/Languages";
+import Passions from "../components/Passions";
 import Skills from "../components/Skills";
-import Summary from "../components/Summary";
 import {
   designation,
   education,
   experience,
   fullName,
   headerItems,
-  skillsElaborated,
+  languages,
+  passions,
+  skills,
   summary,
 } from "./config";
 
@@ -21,17 +25,18 @@ function Resume() {
         fullName={fullName}
         designation={designation}
       />
-      <div className="px-6 pt-2">
-        <Summary summary={summary} />
-      </div>
-      <div className="flex p-6 pt-4 gap-10">
-        <div className="w-[60%] flex flex-col gap-6">
+      <div className="flex p-6 gap-10">
+        <div className="w-[100%] flex flex-col gap-6">
+          <Summary summary={summary} />
           <Experience experience={experience} />
-        </div>
-        <div className="w-[40%] flex flex-col gap-10">
-          <Skills.Elaborated skills={skillsElaborated} />
+          <Skills skills={skills} />
           <Education education={education} />
+          <Languages languages={languages} />
         </div>
+        {/* <div className="w-[40%] flex flex-col gap-10">
+          <Skills skills={skills} />
+          <Languages languages={languages} />
+        </div> */}
       </div>
     </section>
   );

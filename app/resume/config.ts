@@ -42,7 +42,7 @@ const skillsElaborated = [
   },
   {
     label: "Sofwares and Tools",
-    items: ["GIT", "GitHub", "Jira", "VS Code", "Figma"],
+    items: ["Git", "GitHub", "Jira", "VS Code", "Figma"],
   },
   {
     label: "Cloud and DevOps",
@@ -52,7 +52,7 @@ const skillsElaborated = [
 
 const education = [
   {
-    title: "Bachelor of Science (Computers)",
+    title: "B.Com (Computer Appliations)",
     college: "Acharya Nagarjuna University",
     period: "2014 - 2018",
   },
@@ -109,21 +109,6 @@ const experience = [
     ],
   },
   {
-    company: "Scale Dino",
-    roles: [
-      {
-        title: "Full Stack Developer (Freelance)",
-        period: "03/2023 - 05/2023",
-        location: "Hyderabad",
-        work: [
-          "Integrate internally-developed new system, as well as marketplace 3rd party modules into existing system such as OneDrive integration using Microsoft  Graph and GoogleDrive integration using google APIs.",
-          "Introduced and implemented a new backend framework (NestJS) that improved the development process",
-          "Managed a team of 2 remote full-time employees",
-        ],
-      },
-    ],
-  },
-  {
     company: "Janaspandana Software Solutions",
     roles: [
       {
@@ -131,9 +116,11 @@ const experience = [
         period: "03/2022 - 02/2023",
         location: "Hyderabad",
         work: [
-          "Involved in the development of University Management System.",
-          "Improved website accessibility by implementing best practices for color contrast, keyboard navigation, and screen reader compatibility for Learning Management System.",
+          "Involved in the development of University Management System and Learning Management System (ULMS).",
+          "Optimized these applications performance by implementing best practices for image compression, caching, and minification, resulting in increased page speed",
+          "Improved these applicaitons accessibility by implementing best practices for color contrast, keyboard navigation, and screen reader compatibility for Learning Management System.",
           "Introduced and implemented a new frontend framework (NextJS) that improved the development process and reduced time-to-market for new features.",
+          "Managed a team of 2 remote full-time employees",
         ],
       },
       {
@@ -141,9 +128,11 @@ const experience = [
         period: "09/2019 - 02/2022",
         location: "Hyderabad",
         work: [
-          "Successfully developed and launched several websites which are responsive across all devices and truly accessible. ",
-          "Optimized website performance by implementing best practices for image compression, caching, and minification, resulting in increased page speed",
-          "Developed and designed the complete frontend of a business management system, working independently from conception to delivery. Leveraged expertise in HTML, CSS, and JavaScript, as well as experience with frontend frameworks such as React, to create a user-friendly interface with responsive design ",
+          "Successfully developed and launched several clients websites which are responsive across all devices and truly accessible. ",
+          "Dealt directly with different clients to understand their needs and provide solutions that met their expectations. ",
+          "Developed and designed the complete frontend and backend of a business management system, working independently from conception to delivery. Leveraged expertise in HTML, CSS, and JavaScript, as well as experience with frontend frameworks such as React, to create a user-friendly interface. And learnt and applied various backend technologies such as NestJS, NodeJS, MongoDB and MySQL.",
+          "Integrated marketplace 3rd party modules into existing system such as OneDrive integration using Microsoft Graph and GoogleDrive integration using google APIs.",
+          "Developed a very interesting feature called Form builder - this feature allows users to create custom forms easily, without needing to code them from scratch. It enables businesses or individuals to collect specific data from their customers efficiently.",
         ],
       },
     ],
