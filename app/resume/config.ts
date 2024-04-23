@@ -4,7 +4,7 @@ const fullName = "VINAY KUMAR NAGILLA";
 
 const designation = "Senior Software Engineer";
 
-const summary = `Frontend engineer with 4+ years of experience in developing and
+const summary = `Frontend heavy fullstack engineer with 4+ years of experience in developing and
         designing user-friendly interfaces for web applications, with a strong
         focus on creating seamless user experiences. I have a deep understanding
         of web fundamentals such as HTML, CSS, JavaScript, HTTP and am skilled
@@ -29,24 +29,27 @@ const skills = [
 const skillsElaborated = [
   {
     label: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "ReactJS", "NextJS"],
+    items: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Typescript",
+      "ReactJS",
+      "NextJS",
+      "VueJS (Basics)",
+    ],
   },
   {
-    label: "Backend",
-    items: [
-      "NodeJS (Beginner)",
-      "NestJS (Beginner)",
-      "MongoDB (Beginner)",
-      "MySQL (Beginner)",
-    ],
+    label: "Backend (Beginner)",
+    items: ["NodeJS", "NestJS", "MongoDB", "MySQL"],
   },
   {
     label: "Sofwares and Tools",
     items: ["Git", "GitHub", "Jira", "VS Code", "Figma"],
   },
   {
-    label: "Cloud and DevOps",
-    items: ["GitHub Actions (Beginner)", "AWS (Beginner)"],
+    label: "Cloud and DevOps (Beginner)",
+    items: ["GitHub Actions", "AWS"],
   },
 ];
 
