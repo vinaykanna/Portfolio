@@ -36,7 +36,8 @@ const skillsElaborated = [
       "Typescript",
       "ReactJS",
       "NextJS",
-      "VueJS (Basics)",
+      "SolidJS",
+      "VueJS",
     ],
   },
   {
@@ -45,7 +46,15 @@ const skillsElaborated = [
   },
   {
     label: "Sofwares and Tools",
-    items: ["Git", "GitHub", "Jira", "VS Code", "Figma"],
+    items: [
+      "Git",
+      "GitHub",
+      "Jira",
+      "Contentful",
+      "Optimizely",
+      "VS Code",
+      "Figma",
+    ],
   },
   {
     label: "Cloud and DevOps (Beginner)",
