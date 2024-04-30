@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 function Experience({ experience }: any) {
   return (
     <section>
-      <SectionTitle title="Experience" />
+      <SectionTitle title="Work Experience" />
       <div className="mt-2">
         {experience.map((item: any, index: number) => (
           <div key={index} className="mt-3">
