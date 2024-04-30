@@ -64,7 +64,7 @@ const skillsElaborated = [
 
 const education = [
   {
-    title: "B.Com",
+    title: "Bachelor of commerce",
     college: "Acharya Nagarjuna University",
     period: "2014 - 2018",
   },
