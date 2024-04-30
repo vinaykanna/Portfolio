@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle";
 function Summary({ summary }: any) {
   return (
     <section>
-      <SectionTitle title="Summary" />
+      <SectionTitle title="Professional Summary" />
       <p className="text-sm mt-3">{summary}</p>
     </section>
   );
