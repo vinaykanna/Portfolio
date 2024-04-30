@@ -45,7 +45,7 @@ const skillsElaborated = [
     items: ["NodeJS", "NestJS", "MongoDB", "MySQL"],
   },
   {
-    label: "Sofwares and Tools",
+    label: "Softwares and Tools",
     items: [
       "Git",
       "GitHub",
@@ -64,7 +64,7 @@ const skillsElaborated = [
 
 const education = [
   {
-    title: "B.Com (Computer Appliations)",
+    title: "B.Com",
     college: "Acharya Nagarjuna University",
     period: "2014 - 2018",
   },
