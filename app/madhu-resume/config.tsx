@@ -2,9 +2,9 @@ import { Github, Linkedin, Location, Mail, Phone } from "../icons";
 
 const fullName = "MADHUKAR MOGUTHALA";
 
-const designation = "System Engineer";
+const designation = "Senior System Engineer";
 
-const summary = `Dedicated Senior System Engineer with 2.5 years of hands-on experience
+const summary = `Dedicated Senior System Engineer with 2.6 years of hands-on experience
         specializing in Clarity PPM, NSQL, XML, and GEL scripting within the
         dynamic environment of Infosys. Proficient in designing, configuring,
         and optimizing Clarity PPM solutions to drive project and portfolio
@@ -15,7 +15,7 @@ const summary = `Dedicated Senior System Engineer with 2.5 years of hands-on exp
 const skills = [
   "HTML",
   "CSS",
-  "MySQL(Beginner)",
+  "MySQL",
   "ClarityPPM",
   "NSQL",
   "XML",
