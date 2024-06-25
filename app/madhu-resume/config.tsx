@@ -70,6 +70,7 @@ const experience = [
         period: "11/2021 - Present",
         location: "Hyderabad",
         work: [
+           "Worked with 2 Banking Clients and Presently working with Vehilcle manufacture Client",     
           "Implemented custom solutions using Clarity PPM, NSQL, XML, and Gel scripting to streamline project management processes.",
           "Developed and maintained NSQL queries and XML templates to extract and visualize critical project data for stakeholders.",
           "Automated repetitive tasks and improved efficiency by creating Gel scripts to enhance system functionality.",
