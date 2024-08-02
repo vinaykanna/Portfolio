@@ -17,14 +17,18 @@ function Experience({ experience }: any) {
                   {role.title}
                 </h3>
                 <div className="flex gap-4">
-                  <div className="flex gap-2 items-center mt-2">
-                    <Calendar color="rgb(55, 65, 81, 0.7)" className="w-4" />
-                    <span className="text-sm">{role.period}</span>
-                  </div>
-                  <div className="flex gap-2 items-center mt-2">
-                    <Location color="rgb(55, 65, 81, 0.7)" className="w-4" />
-                    <span className="text-sm">{role.location}</span>
-                  </div>
+                  {role?.period && (
+                    <div className="flex gap-2 items-center mt-2">
+                      <Calendar color="rgb(55, 65, 81, 0.7)" className="w-4" />
+                      <span className="text-sm">{role.period}</span>
+                    </div>
+                  )}
+                  {role?.location && (
+                    <div className="flex gap-2 items-center mt-2">
+                      <Location color="rgb(55, 65, 81, 0.7)" className="w-4" />
+                      <span className="text-sm">{role.location}</span>
+                    </div>
+                  )}
                 </div>
                 {role?.work && (
                   <ul className="mt-2 list-disc pl-5">
@@ -38,7 +42,7 @@ function Experience({ experience }: any) {
                 {role?.projects && (
                   <div className="mt-3">
                     {role?.projects?.map((project: any, index: number) => (
-                      <div key={index}>
+                      <div key={index} className="mb-5">
                         <h2 className="text-secondary text-md font-semibold mt-2">
                           # Project{index + 1}
                         </h2>
