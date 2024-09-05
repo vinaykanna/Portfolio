@@ -87,12 +87,13 @@ const experience = [
                 
         ],
       },
+            {
+    company: "Clarity PPM(VISA Banking)",
+    roles: [
              {
-        title: "Job Role:System Enigineer",
+        title: "Job Role:Clarity Support",
         period: "11/2021 - 11/2022",
-        location: "Project Name: Clarity PPM",
-        Company:"VISA Banking",
-                     
+        location: "Hyderabad",
         work: [
            "Managed Multiple projects using Clarity PPM, resulting in a 15% reduction in project delivery time.",     
           "Developed and manitained project schedules, budget and resource plans in Clarity PPM.",
@@ -101,6 +102,24 @@ const experience = [
         ],
       },
     ],
+  },
+      {
+    company: "Clarity PPM(Westpac Banking)",
+    roles: [
+             {
+        title: "Job Role:Clarity Developer",
+        period: "12/2022 - 11/2023",
+        location: "Hyderabad",
+        work: [
+           "Managed Multiple projects using Clarity PPM, resulting in a 15% reduction in project delivery time.",     
+          "Developed and manitained project schedules, budget and resource plans in Clarity PPM.",
+          "Customized Clarity PPM workflows and configurations to align with specific project requirements and business needs.",
+          "Enhanced reporting capabilities by designing and implementing custom reports and dashboards using Clarity PPM data.",         
+        ],
+      },
+    ],
+  },
+  ],
   },
 ];
 
