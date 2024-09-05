@@ -87,6 +87,8 @@ const experience = [
                 
         ],
       },
+],
+  },
             {
     company: "Clarity PPM(VISA Banking)",
     roles: [
@@ -140,8 +142,7 @@ const experience = [
       },
     ],
   },
-  ],
-  },
+  
 ];
 
 const headerItems = [
