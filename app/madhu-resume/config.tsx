@@ -84,6 +84,20 @@ const experience = [
           "Experience in interfacing with global clarity users efficiently and resolve their queries.",
           "supported the upgrades of the Clarity PPM from the version  15.9.1 and 16.1.0. And has tested and reported bugs in the lower environments for the various critical components and integrations before the upgrades.",
           "Experience in Clarity 15.x, 16.x versions.",
+                
+        ],
+      },
+             {
+        title: "Job Role:System Enigineer",
+        period: "11/2021 - 11/2022",
+        location: "Project Name: Clarity PPM",
+        Company:"VISA Banking",
+                     
+        work: [
+           "Managed Multiple projects using Clarity PPM, resulting in a 15% reduction in project delivery time.",     
+          "Developed and manitained project schedules, budget and resource plans in Clarity PPM.",
+          "Customized Clarity PPM workflows and configurations to align with specific project requirements and business needs.",
+          "Enhanced reporting capabilities by designing and implementing custom reports and dashboards using Clarity PPM data.",         
         ],
       },
     ],
