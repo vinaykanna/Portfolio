@@ -4,7 +4,7 @@ const fullName = "MADHUKAR MOGUTHALA";
 
 const designation = "Technology Analyst";
 
-const summary = `Dedicated Senior System Engineer with 3.9 years of hands-on experience
+const summary = `Dedicated Technology Analyst with 3.9 years of hands-on experience
         specializing in Clarity PPM, NSQL, XML, and GEL scripting within the
         dynamic environment of Infosys. Proficient in designing, configuring,
         and optimizing Clarity PPM solutions to drive project and portfolio
@@ -67,7 +67,7 @@ const experience = [
     company: "Infosys",
     roles: [
       {
-        title: "Senior System Enigineer",
+        title: "Technology Analyst",
         period: "11/2021 - Present",
         location: "Hyderabad",
         work: [
