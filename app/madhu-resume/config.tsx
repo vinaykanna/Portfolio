@@ -4,7 +4,7 @@ const fullName = "MADHUKAR MOGUTHALA";
 
 const designation = "Technology Analyst";
 
-const summary = `Dedicated Technology Analyst with 3.9 years of hands-on experience
+const summary = `Dedicated Clarity Developer with 4 years of hands-on experience
         specializing in Clarity PPM, NSQL, XML, and GEL scripting within the
         dynamic environment of Infosys. Proficient in designing, configuring,
         and optimizing Clarity PPM solutions to drive project and portfolio
@@ -68,10 +68,10 @@ const experience = [
     roles: [
       {
         title: "Technology Analyst",
-        period: "11/2021 - Present",
+        period: "11/2021 - 07/2025",
         location: "Hyderabad",
         work: [
-          "Worked with 2 Banking Clients and Presently working with Car Manufacture Client.",
+          "Worked with 3 Banking Clients and Presently working with Car Manufacture Client.",
           "Implemented custom solutions using Clarity PPM, NSQL, XML, and Gel scripting to streamline project management processes.",
           "Developed and maintained NSQL queries and XML templates to extract and visualize critical project data for stakeholders.",
           "Automated repetitive tasks and improved efficiency by creating Gel scripts to enhance system functionality.",
@@ -129,7 +129,7 @@ const experience = [
     roles: [
       {
         title: "Job Role:Clarity Developer",
-        period: "12/2023 - Present",
+        period: "12/2023 - 07/2025",
         location: "Hyderabad",
         work: [
           "Reduced project management cycle  times by 20% by implementing cutom workflows in the Clarity PPM MUX.",
@@ -138,6 +138,48 @@ const experience = [
           "Experience in writing queries using SQL, Knowledge on using GEL Script for workflows in CA PPM.",
           "Built advance reports in the clarity with the help of Jasper Studio.",
           "Experience in interfacing with global clarity users efficiently and resolve their queries.",
+        ],
+      },
+    ],
+  },
+ {
+    company: "TCS",
+    roles: [
+      {
+        title: "System Engineer",
+        period: "07/2025 - Present",
+        location: "Hyderabad",
+        work: [
+          "Worked with 1 Banking Clients.",
+          "Implemented custom solutions using Clarity PPM, NSQL, XML, and Gel scripting to streamline project management processes.",
+          "Developed and maintained NSQL queries and XML templates to extract and visualize critical project data for stakeholders.",
+          "Automated repetitive tasks and improved efficiency by creating Gel scripts to enhance system functionality.",
+          "Customized Clarity PPM workflows and configurations to align with specific project requirements and business needs.",
+          "Enhanced reporting capabilities by designing and implementing custom reports and dashboards using Clarity PPM data.",
+          "Played a key role in system upgrades and migrations, ensuring a smooth transition to newer versions of Clarity PPM.",
+          "Knowledge of debugging of the processes, scripts for the issues faced by the global clarity users and resolving their queries efficiently.",
+          "Experience of working on support tools – Service Now for handling Incidents, service requests and Change Requests.",
+          "Experience in writing queries using SQL, Knowledge on using GEL Script for workflows in CA PPM.",
+          "Experience in interfacing with global clarity users efficiently and resolve their queries.",
+          "supported the upgrades of the Clarity PPM from the version  15.9.1 and 16.1.0. And has tested and reported bugs in the lower environments for the various critical components and integrations before the upgrades.",
+          "Experience in Clarity 15.x, 16.x versions.",
+        ],
+      },
+    ],
+  },
+{
+    company: "Clarity PPM(BMO)",
+    roles: [
+      {
+        title: "Job Role:Clarity Developer",
+        period: "07/2025 - Present",
+        location: "Hyderabad",
+        work: [
+          "Designed and configured custom portlets and dashboards using NSQL to provide real-time project and resource visibility for leadership teams.",
+          "Developed and automated GEL-based workflows to streamline approval processes, improving operational efficiency and reducing manual effort.",
+          "Performed Clarity PPM system enhancements, including custom object creation, attribute configuration, and lookup management to meet evolving business requirements.",
+          "Collaborated closely with functional and business users to gather requirements, perform impact analysis, and deliver tailored Clarity solutions.",
+          "Optimized Clarity PPM performance through query tuning and data cleanup, reducing report load times and improving user experience.",
         ],
       },
     ],
