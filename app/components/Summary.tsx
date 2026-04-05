@@ -4,7 +4,11 @@ function Summary({ summary }: any) {
   return (
     <section>
       <SectionTitle title="Professional Summary" />
-      <p className="text-sm mt-3">{summary}</p>
+      {summary.map((item: string, index: number) => (
+        <p className="text-[15px] mt-3" key={index}>
+          {item}
+        </p>
+      ))}
     </section>
   );
 }

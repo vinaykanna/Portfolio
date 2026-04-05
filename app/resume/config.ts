@@ -2,16 +2,13 @@ import { Github, Linkedin, Location, Mail, Phone, Web } from "../icons";
 
 const fullName = "VINAY KUMAR NAGILLA";
 
-const designation = "Senior Software Engineer";
+const designation = "System Analyst | Frontend-focused Full Stack Engineer";
 
-const summary = `Frontend heavy fullstack engineer with 4+ years of experience in developing and
-        designing user-friendly interfaces for web applications, with a strong
-        focus on creating seamless user experiences. I have a deep understanding
-        of web fundamentals such as HTML, CSS, JavaScript, HTTP and am skilled
-        in using various frontend frameworks such as React, Vue, and Angular.
-        Passionate about learning and development with a desire to apply skills
-        and eager to tackle more complex problems and continue to find ways to
-        maximize user efficiency.`;
+const summary = [
+  "Frontend-focused Full Stack Engineer with 6+ years of experience designing and developing scalable, high-performance web applications. Expertise in building intuitive, user-centric interfaces using modern JavaScript frameworks including React, Vue, and Angular. Strong foundation in core web technologies such as HTML5, CSS3, JavaScript (ES6+), and HTTP/REST APIs.",
+  "Proven ability to translate business requirements into efficient, maintainable solutions, with a focus on performance optimization, accessibility, and responsive design. Experienced in collaborating with cross-functional teams, writing clean and reusable code, and improving overall user experience and application efficiency.",
+  "Passionate about continuous learning, solving complex technical challenges, and leveraging best practices to deliver impactful digital products.",
+];
 
 const skills = [
   "HTML",
@@ -35,14 +32,31 @@ const skillsElaborated = [
       "JavaScript",
       "Typescript",
       "ReactJS",
-      "NextJS",
-      "SolidJS",
+      "Angular",
       "VueJS",
+      "NextJS",
+      "Microfrontends",
     ],
   },
   {
-    label: "Backend (Beginner)",
-    items: ["NodeJS", "NestJS", "MongoDB", "MySQL"],
+    label: "Backend",
+    items: ["NodeJS", "ExpressJS", "NestJS"],
+  },
+  {
+    label: "Databases",
+    items: [
+      "SQL",
+      "SQLite",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "DynamoDB",
+      "Redis",
+    ],
+  },
+  {
+    label: "Cloud and DevOps",
+    items: ["GitHub Actions", "AWS"],
   },
   {
     label: "Softwares and Tools",
@@ -53,18 +67,29 @@ const skillsElaborated = [
       "Contentful",
       "Optimizely",
       "VS Code",
-      "Figma",
+      "Figma (UX Design)",
+      "Featurevisor (Feature Flags, Remote Config, AB Testing)",
+      "New Relic (Logging and Monitoring)",
     ],
   },
   {
-    label: "Cloud and DevOps (Beginner)",
-    items: ["GitHub Actions", "AWS"],
+    label: "Miscellaneous",
+    items: [
+      "CI/CD",
+      "REST APIs",
+      "GraphQL",
+      "Jest/Vitest",
+      "Webpack/Vite",
+      "Agile/Scrum",
+      "Performance optimization",
+      "Accessibility best practices",
+    ],
   },
 ];
 
 const education = [
   {
-    title: "Bachelor of commerce",
+    title: "B.Com (Computer Applications)",
     college: "Acharya Nagarjuna University",
     period: "2014 - 2018",
   },
@@ -105,8 +130,21 @@ const experience = [
     company: "DAZN",
     roles: [
       {
-        title: "Senior Software Enigineer",
-        period: "06/2023 - Present",
+        title: "System Analyst",
+        period: "06/2025 - Present",
+        location: "Hyderabad",
+        work: [
+          "Led the migration of the News module from client-side rendering (CSR) to Server-Side Rendering (SSR) and transitioned multiple static pages to Static Site Generation (SSG) using modern frameworks, significantly improving SEO, initial load performance, and increasing Lighthouse performance scores from ~60 to ~85 across key pages.",
+          "Spearheaded accessibility (a11y) improvements across multiple modules from the ground up, ensuring compliance with WCAG standards. Implemented semantic HTML, ARIA roles, keyboard navigation support, focus management, and screen reader compatibility, resulting in a more inclusive user experience and improved accessibility audit scores.",
+          "Drove performance optimization initiatives in the Catalogue module, reducing redundant and repeated API calls by ~30–40% through request deduplication, caching strategies, and improved state management. Collaborated closely with backend teams to enhance API performance by implementing HTTP best practices such as response caching, compression, and optimized payload structures, resulting in faster response times and improved application responsiveness.",
+          "Played a key role in the successful migration and integration of two major products — Kayo (Sports) and Binge (Entertainment) with 5m+ users — acquired from Foxtel into the DAZN platform within a tight 6-month timeline. Contributed to seamless platform unification, ensuring consistent user experience and performance across products.",
+          "Contributed to the migration of feature flagging and experimentation systems from Optimizely to an in-house solution (FeatureVisor). Assisted in re-implementing A/B testing and remote configuration workflows, improving flexibility, reducing third-party dependency, and enabling better control over experimentation strategies.",
+          "Led the migration of the Catalogue module from JavaScript to TypeScript, improving code reliability, maintainability, and developer productivity.",
+        ],
+      },
+      {
+        title: "Senior Software Engineer",
+        period: "06/2023 - 05/2025",
         location: "Hyderabad",
         work: [
           "Collaborated on the development of the Catalogue Module for DAZN's sports streaming platform.",
@@ -124,19 +162,19 @@ const experience = [
     company: "Janaspandana Software Solutions",
     roles: [
       {
-        title: "Senior Frontend Developer",
+        title: "Full Stack Developer",
         period: "03/2022 - 02/2023",
         location: "Hyderabad",
         work: [
           "Involved in the development of University Management System and Learning Management System (ULMS).",
           "Optimized these applications performance by implementing best practices for image compression, caching, and minification, resulting in increased page speed",
-          "Improved these applicaitons accessibility by implementing best practices for color contrast, keyboard navigation, and screen reader compatibility for Learning Management System.",
+          "Improved these applications accessibility by implementing best practices for color contrast, keyboard navigation, and screen reader compatibility for Learning Management System.",
           "Introduced and implemented a new frontend framework (NextJS) that improved the development process and reduced time-to-market for new features.",
           "Managed a team of 2 remote full-time employees",
         ],
       },
       {
-        title: "Frontend Developer",
+        title: "Associate Software Engineer",
         period: "09/2019 - 02/2022",
         location: "Hyderabad",
         work: [

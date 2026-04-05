@@ -33,7 +33,7 @@ function Experience({ experience }: any) {
                 {role?.work && (
                   <ul className="mt-2 list-disc pl-5">
                     {role?.work?.map((item: any, index: number) => (
-                      <li key={index} className="text-xs mb-2">
+                      <li key={index} className="text-[15px] mb-2">
                         {item}
                       </li>
                     ))}

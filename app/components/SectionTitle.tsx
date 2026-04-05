@@ -1,10 +1,8 @@
 function SectionTitle({ title }: { title: string }) {
   return (
-    <div>
-      <h2 className="text-xl mb-2 text-secondary font-semibold border-secondary border-solid border-b-4">
-        {title}
-      </h2>
-    </div>
+    <h2 className="text-xl mb-2 font-semibold border-black border-solid border-b-2">
+      {title}
+    </h2>
   );
 }
 

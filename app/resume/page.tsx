@@ -15,24 +15,26 @@ import {
 
 function Resume() {
   return (
-    <section className="w-[1000px] m-auto border shadow-lg wrapper">
+    <section className="w-[1000px] m-auto border shadow-lg wrapper p-8">
       <Header
         headerItems={headerItems}
         fullName={fullName}
         designation={designation}
       />
-      <div className="px-6 pt-2">
-        <Summary summary={summary} />
-      </div>
-      <div className="flex p-6 pt-4 gap-10">
-        <div className="w-[60%] flex flex-col gap-6">
+      <main>
+        <div className="mt-4">
+          <Summary summary={summary} />
+        </div>
+        <div className="mt-8">
           <Experience experience={experience} />
         </div>
-        <div className="w-[40%] flex flex-col gap-10">
+        <div className="mt-8">
           <Skills.Elaborated skills={skillsElaborated} />
+        </div>
+        <div className="mt-8">
           <Education education={education} />
         </div>
-      </div>
+      </main>
     </section>
   );
 }
