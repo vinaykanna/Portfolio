@@ -4,13 +4,15 @@ const fullName = "MADHUKAR MOGUTHALA";
 
 const designation = "Technology Analyst";
 
-const summary = `Dedicated Clarity Developer with 4 years of hands-on experience
-        specializing in Clarity PPM, NSQL, XML, and GEL scripting within the
-        dynamic environment of Infosys. Proficient in designing, configuring,
-        and optimizing Clarity PPM solutions to drive project and portfolio
-        management excellence. Adept at collaborating with cross-functional
-        teams to deliver scalable and efficient solutions that enhance
-        organizational performance.`;
+const summary = [
+  `Dedicated Clarity Developer with 4 years of hands-on experience
+  specializing in Clarity PPM, NSQL, XML, and GEL scripting within the
+  dynamic environment of Infosys. Proficient in designing, configuring,
+  and optimizing Clarity PPM solutions to drive project and portfolio
+  management excellence. Adept at collaborating with cross-functional
+  teams to deliver scalable and efficient solutions that enhance
+  organizational performance.`,
+];
 
 const skills = [
   "HTML",
@@ -21,7 +23,7 @@ const skills = [
   "XML",
   "GelScripting",
   "Jasper Soft",
-  "Rest API",      
+  "Rest API",
 ];
 
 const education = [
@@ -142,7 +144,7 @@ const experience = [
       },
     ],
   },
- {
+  {
     company: "TCS",
     roles: [
       {
@@ -167,7 +169,7 @@ const experience = [
       },
     ],
   },
-{
+  {
     company: "Clarity PPM(BMO)",
     roles: [
       {
