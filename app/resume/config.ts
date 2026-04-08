@@ -91,7 +91,7 @@ const education = [
   {
     title: "B.Com (Computer Applications)",
     college: "Acharya Nagarjuna University",
-    period: "2014 - 2018",
+    // period: "2014 - 2018",
   },
 ];
 
