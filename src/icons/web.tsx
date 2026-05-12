@@ -1,4 +1,4 @@
-import { IconProps } from ".";
+import type { IconProps } from ".";
 
 function Web({ color = "white", className = "" }: IconProps) {
   return (

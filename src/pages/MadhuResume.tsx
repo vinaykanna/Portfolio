@@ -3,7 +3,6 @@ import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Header from "../components/Header";
 import Languages from "../components/Languages";
-import Passions from "../components/Passions";
 import Skills from "../components/Skills";
 import {
   designation,
@@ -12,12 +11,11 @@ import {
   fullName,
   headerItems,
   languages,
-  passions,
   skills,
   summary,
-} from "./config";
+} from "./MadhuResumeConfig";
 
-function Resume() {
+function MadhuResume() {
   return (
     <section className="w-[1000px] m-auto border shadow-lg wrapper">
       <Header
@@ -42,4 +40,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default MadhuResume;

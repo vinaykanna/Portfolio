@@ -11,7 +11,7 @@ import {
   headerItems,
   skillsElaborated,
   summary,
-} from "./config";
+} from "./ResumeConfig";
 
 function Resume() {
   return (

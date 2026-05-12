@@ -1,4 +1,4 @@
-import { IconProps } from ".";
+import type { IconProps } from ".";
 
 function Diamond({ color = "white", className = "" }: IconProps) {
   return (

@@ -1,6 +1,5 @@
+import { Link } from "react-router-dom";
 import { guiChallenges, projects, technstack } from "@/utils/data";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
           }}
         >
           <section className="text-center px-2">
-            <Image
+            <img
               src="/profile.jpg"
               width={128}
               height={128}
@@ -34,7 +33,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 justify-center items-center mt-4">
               <a href="https://github.com/vinaykanna" target="_blank">
-                <Image
+                <img
                   className="rounded-full"
                   width={30}
                   height={30}
@@ -46,7 +45,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/vinay-kumar-497911144/"
                 target="_blank"
               >
-                <Image
+                <img
                   width={30}
                   className="rounded-full"
                   height={30}
@@ -54,8 +53,8 @@ export default function Home() {
                   alt="LinkedIn"
                 />
               </a>
-              <Link href="/resume" target="_blank">
-                <Image
+              <Link to="/resume" target="_blank">
+                <img
                   width={30}
                   className="rounded-full"
                   height={30}
@@ -77,7 +76,7 @@ export default function Home() {
                 key={index}
                 title={tech.name}
               >
-                <Image
+                <img
                   width={tech.width || 60}
                   height={tech.height || 60}
                   src={tech.image}
@@ -95,7 +94,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
             {projects.map((form, index) => (
               <div className="bg-[#00aa930d] p-5 shadow" key={index}>
-                <Image
+                <img
                   width={500}
                   height={600}
                   src={form.image}
@@ -110,7 +109,7 @@ export default function Home() {
                       type="button"
                       className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg  py-2.5 text-center inline-flex items-center text-xs px-3 mt-2 sm:mt-0"
                     >
-                      <Image
+                      <img
                         width={17}
                         height={17}
                         className="mr-2 -ml-1"
@@ -145,7 +144,7 @@ export default function Home() {
                       type="button"
                       className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3 mt-2 sm:mt-0"
                     >
-                      <Image
+                      <img
                         width={17}
                         height={17}
                         className="mr-2 -ml-1"
@@ -160,7 +159,7 @@ export default function Home() {
                       type="button"
                       className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg py-2.5 text-center inline-flex items-center text-xs px-3 ml-2"
                     >
-                      <Image
+                      <img
                         width={16}
                         height={16}
                         className="mr-2 -ml-1"

@@ -34,3 +34,7 @@
     box-shadow: none;
   }
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
