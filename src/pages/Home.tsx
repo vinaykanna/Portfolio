@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { guiChallenges, projects, technstack } from "@/utils/data";
+import { guiChallenges, projects, technstack } from "../utils/data";
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Location, Mail, Phone } from "../icons";
+import { Linkedin, Location, Mail, Phone } from "../icons";
 
 const fullName = "MADHUKAR MOGUTHALA";
 
